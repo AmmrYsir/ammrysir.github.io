@@ -38,14 +38,6 @@ jobs:
     
   deploy:
     name: Deploy
-    runs:
-      using: 'node16'
-      main: 'docs'
-    inputs:
-      artifact_name:
-        description: 'build'
-        required: false
-        default: 'github-pages'
     needs: build
     environment:
       name: main
@@ -60,3 +52,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        with:
+          name: build
+          path: ./docs
