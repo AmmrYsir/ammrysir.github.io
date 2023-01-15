@@ -53,8 +53,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
         with:
-          inputs:
-            artifact_name:
-              description: 'build'
-              required: false
-              default: 'github-pages'
+          artifact_name: build
