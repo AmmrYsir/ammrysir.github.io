@@ -1,14 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy vue to prod
-runs:
-  using: 'node16'
-  main: 'docs'
-
-inputs:
-  artifact_name:
-    description: 'build'
-    required: false
-    default: 'github-pages'
 
 on:
   # Runs on pushes targeting the default branch
@@ -47,6 +38,14 @@ jobs:
     
   deploy:
     name: Deploy
+    runs:
+      using: 'node16'
+      main: 'docs'
+    inputs:
+      artifact_name:
+        description: 'build'
+        required: false
+        default: 'github-pages'
     needs: build
     environment:
       name: main
