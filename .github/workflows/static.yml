@@ -42,9 +42,9 @@ jobs:
         run: npm run build
         
       - name: Upload production-ready build files
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
-          name: production-files
+          name: build
           path: ./docs
     
   deploy:
@@ -56,9 +56,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
-          name: production-files
+          name: build
           
       - name: Deploy to GitHub Pages
         id: deployment
