@@ -3,6 +3,7 @@ import { ref } from 'vue';
 import AboutMe from './components/AboutMe.vue'
 import Experience from './components/Experience.vue'
 import Education from './components/Education.vue'
+import Skills from './components/Skills.vue'
 
 const routePath = ref("about");
 
@@ -30,10 +31,10 @@ function comparePath(path: string) {
 					:class="{ 'text-white': comparePath('education') }" href="#education">EDUCATION</a>
 				<a @click="setPath('skills')" class="cursor-pointer hover:text-violet-100"
 					:class="{ 'text-white': comparePath('skills') }" href="#skills">SKILLS</a>
-				<a @click="setPath('interest')" class="cursor-pointer hover:text-violet-100"
-					:class="{ 'text-white': comparePath('interest') }" href="#interest">INTEREST</a>
-				<a @click="setPath('portfolio')" class="cursor-pointer hover:text-violet-100"
-					:class="{ 'text-white': comparePath('portfolio') }" href="#portfolio">PORTFOLIO</a>
+				<!-- <a @click="setPath('interest')" class="cursor-pointer hover:text-violet-100"
+					:class="{ 'text-white': comparePath('interest') }" href="#interest">INTEREST</a> -->
+				<!-- <a @click="setPath('portfolio')" class="cursor-pointer hover:text-violet-100"
+					:class="{ 'text-white': comparePath('portfolio') }" href="#portfolio">PORTFOLIO</a> -->
 			</ul>
 		</div>
 		<div class="flex-1 bg-gray-100">
@@ -41,6 +42,7 @@ function comparePath(path: string) {
 				<AboutMe />
 				<Experience />
 				<Education />
+				<Skills />
 			</div>
 		</div>
 	</div>
