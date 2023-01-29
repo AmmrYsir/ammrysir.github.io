@@ -3,12 +3,12 @@
 </script>
 
 <template>
-	<section class="h-screen" id="experience">
+	<section class="h-screen min-h-screen border-b" id="experience">
 		<div class="h-full flex flex-col justify-center px-10">
 			<h2 class="mb-5 font-bold text-6xl">EXPERIENCE</h2>
 			<div class="flex justify-between mb-10">
-				<div class="flex-1 text-xl">
-					<h3 class="mb-0 font-semibold text-2xl">SYSTEM ANALYST</h3>
+				<div class="flex-1 text-2xl">
+					<h3 class="mb-0 font-semibold text-4xl">SYSTEM ANALYST</h3>
 					<div class="mb-3 text-gray-600">KETARIS ENTERPRISE</div>
 					<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end
 						of the day, going forward, a new normal that has evolved from generation X is on the
@@ -18,8 +18,8 @@
 				<span class="text-violet-900">December 2022 - Present</span>
 			</div>
 			<div class="flex justify-between mb-10">
-				<div class="flex-1 text-xl">
-					<h3 class="mb-0 font-semibold text-2xl">JUNIOR DEVOPS ENGINEER</h3>
+				<div class="flex-1 text-2xl">
+					<h3 class="mb-0 font-semibold text-4xl">JUNIOR DEVOPS ENGINEER</h3>
 					<div class="mb-3 text-gray-600">INFINITE LOGIX SYSTEM PLT</div>
 					<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end
 						of the day, going forward, a new normal that has evolved from generation X is on the
