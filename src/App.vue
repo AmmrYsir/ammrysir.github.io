@@ -18,7 +18,7 @@ function comparePath(path: string) {
 	<div class="flex h-screen">
 		<div class="hidden lg:flex flex-col w-80 bg-violet-500 items-center justify-center">
 			<div id="circle" class="h-40 w-40 rounded-full border-8 border-violet-400 overflow-hidden mb-10">
-				<img src="./assets/profile.jpg" alt="">
+				<img src="./assets/profile.png" alt="">
 			</div>
 			<ul class="flex flex-col text-white font-bold text-violet-300 gap-4 items-center text-2xl">
 				<a @click="setPath('about')" class="cursor-pointer hover:text-violet-100"
@@ -36,7 +36,7 @@ function comparePath(path: string) {
 			</ul>
 		</div>
 		<div class="flex-1 bg-gray-100">
-			<div class="overflow-y-scroll h-full">
+			<div class="overflow-y-scroll h-full scroll-smooth">
 				<AboutMe />
 				<Experience />
 			</div>
