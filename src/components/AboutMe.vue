@@ -4,7 +4,7 @@
 
 <template>
 	<section class="min-h-screen h-screen border-b" id="about">
-		<div class="h-full flex flex-col justify-center text-2xl pl-5">
+		<div class="h-full flex flex-col justify-center text-2xl px-10">
 			<h1 class="mb-0 font-bold text-8xl">
 				Ammar
 				<span class="text-violet-500">Yasir</span>
