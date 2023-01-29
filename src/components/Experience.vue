@@ -10,10 +10,12 @@
 				<div class="flex-1 text-2xl">
 					<h3 class="mb-0 font-semibold text-4xl">SYSTEM ANALYST</h3>
 					<div class="mb-3 text-gray-600">KETARIS ENTERPRISE</div>
-					<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end
-						of the day, going forward, a new normal that has evolved from generation X is on the
-						runway heading towards a streamlined cloud solution. User generated content in real-time
-						will have multiple touchpoints for offshoring.</p>
+					<p>Act as support for KETARIS ENTERPRISE in "<span class="font-semibold">SPPS</span>" for time
+						being.
+						Managing bugfixing and
+						developing new additional feature to client as per request. <br /> Learning frontend
+						technologies and
+						hone my skill further to be fullstack engineer.</p>
 				</div>
 				<span class="text-violet-900">December 2022 - Present</span>
 			</div>
@@ -21,16 +23,23 @@
 				<div class="flex-1 text-2xl">
 					<h3 class="mb-0 font-semibold text-4xl">JUNIOR DEVOPS ENGINEER</h3>
 					<div class="mb-3 text-gray-600">INFINITE LOGIX SYSTEM PLT</div>
-					<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end
-						of the day, going forward, a new normal that has evolved from generation X is on the
-						runway heading towards a streamlined cloud solution. User generated content in real-time
-						will have multiple touchpoints for offshoring.</p>
+					<p>Start to involved in large-based collaboration goverment project with INFORMATES and KETARIS
+						ENTERPRISE
+						known as
+						"<span class="font-semibold">SPPS</span>" which stands for Sistem Pembiayaan Pendidikan
+						Selangor. Responsible on developing many
+						big important feature throughout system development. Manage time, stress and client behavior
+						well, Deliver each feature on time without issue. Create a myprocurement demo system known as
+						"<span class="font-semibold">E-Pembekal</span>" for Tourism Perak. Work-from-home and diligently
+						communicate
+						throughout pandemic time with good amount of dedication.
+					</p>
 				</div>
 				<span class="text-violet-900">April 2021 - November 2022 (1 year 7 months)</span>
 			</div>
 			<div class="flex justify-between mb-10">
-				<div class="flex-1 text-xl">
-					<h3 class="mb-0 font-semibold text-2xl">INTERN DEVOPS ENGINEER</h3>
+				<div class="flex-1 text-2xl">
+					<h3 class="mb-0 font-semibold text-4xl">INTERN DEVOPS ENGINEER</h3>
 					<div class="mb-3 text-gray-600">INFINITE LOGIX SYSTEM PLT</div>
 					<p>Introduction to industrial experience and workplace. Probation period in development operation
 						start
