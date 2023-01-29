@@ -2,6 +2,7 @@
 import { ref } from 'vue';
 import AboutMe from './components/AboutMe.vue'
 import Experience from './components/Experience.vue'
+import Education from './components/Education.vue'
 
 const routePath = ref("about");
 
@@ -39,6 +40,7 @@ function comparePath(path: string) {
 			<div class="overflow-y-scroll h-full scroll-smooth">
 				<AboutMe />
 				<Experience />
+				<Education />
 			</div>
 		</div>
 	</div>
