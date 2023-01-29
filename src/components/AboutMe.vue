@@ -25,12 +25,12 @@
 				<a target="_blank"
 					class="flex justify-center items-center bg-violet-500 rounded-full text-white h-12 w-12 text-center"
 					href="https://github.com/AmmrYsir"><i class="fab fa-github"></i></a>
-				<a target="_blank"
+				<!-- <a target="_blank"
 					class="flex justify-center items-center bg-violet-500 rounded-full text-white h-12 w-12 text-center"
-					href="https://twitter.com/AmmarYasirJB"><i class="fab fa-twitter"></i></a>
-				<a target="_blank"
+					href="https://twitter.com/AmmarYasirJB"><i class="fab fa-twitter"></i></a> -->
+				<!-- <a target="_blank"
 					class="flex justify-center items-center bg-violet-500 rounded-full text-white h-12 w-12 text-center"
-					href="https://www.facebook.com/ammar.yasir.03062000/"><i class="fab fa-facebook-f"></i></a>
+					href="https://www.facebook.com/ammar.yasir.03062000/"><i class="fab fa-facebook-f"></i></a> -->
 			</div>
 		</div>
 	</section>
